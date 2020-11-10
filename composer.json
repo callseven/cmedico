@@ -1,0 +1,19 @@
+{
+    "name": "call/med",
+    "description": "Projeto Med",
+    "authors": [
+        {
+            "name": "Call Szpak",
+            "email": "cesar@celke.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\" : "core",
+            "Sts\\": "app/sts",
+            "Med\\": "app/med",
+            "App\\": "app"
+        }
+    },
+    "require": {}
+}
